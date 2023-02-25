@@ -105,7 +105,7 @@ import {
         {/* top frame end */}
 
         {/* posts */}
-        <ScrollView style={{position:'absolute',width:'100%',height:862,top:200,overflow:'scroll'}}>
+        <View style={{position:'absolute',width:'100%',height:862,top:200,overflow:'scroll'}}>
         
             {/* post - 1 */}
             <View style={{backgroundColor:'#FFFFFF',position:'absolute',width:'100%',top:0,height:427}}>
@@ -160,7 +160,7 @@ import {
                 </View>
             </View>
 
-        </ScrollView> 
+        </View> 
         
       </View>
     )
@@ -250,8 +250,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems:'center',
         backgroundColor: '#11A5BA',
-        gap: 2,
-        flexGrow: 0,    
+        // gap: 2,
+        // flexGrow: 0,    
         height: '100%',
         width: '20%',
     },
